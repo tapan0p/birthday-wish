@@ -33,7 +33,6 @@ function addSpan(cls,spanE1,xPos,yPos){
     spanE1.style.left=xPos+"px";
     spanE1.style.top=yPos+"px";
     const size= Math.floor(Math.random() * ( 541)) + 60;
-    const size=Math.random()*500;
     spanE1.style.width=size+"px";
     spanE1.style.height=size+"px";
     bodyE1.appendChild(spanE1);
