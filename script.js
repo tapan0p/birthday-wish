@@ -20,7 +20,7 @@ bodyE1.addEventListener("mousemove",(event)=>{
         case 5:
             spanE1.innerHTML="Jiya";
             spanE1.style.color="white";
-            spanE1.style.fontSize="30px";
+            spanE1.style.fontSize="100px";
             addSpan("span5",spanE1,xPos,yPos);
             break;
         default:
@@ -32,6 +32,7 @@ function addSpan(cls,spanE1,xPos,yPos){
     spanE1.classList.add(cls);
     spanE1.style.left=xPos+"px";
     spanE1.style.top=yPos+"px";
+    const size= Math.floor(Math.random() * ( 541)) + 60;
     const size=Math.random()*500;
     spanE1.style.width=size+"px";
     spanE1.style.height=size+"px";
