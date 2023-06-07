@@ -32,9 +32,9 @@ function addSpan(cls,spanE1,xPos,yPos){
     spanE1.classList.add(cls);
     spanE1.style.left=xPos+"px";
     spanE1.style.top=yPos+"px";
-    const size= Math.floor(Math.random() * 441) + 60;
-    spanE1.style.width=size+"px";
-    spanE1.style.height=size+"px";
+    const number= Math.floor(Math.random() * 441) + 60;
+    spanE1.style.width=number+"px";
+    spanE1.style.height=number+"px";
     bodyE1.appendChild(spanE1);
     setTimeout(()=>{
         spanE1.remove();
