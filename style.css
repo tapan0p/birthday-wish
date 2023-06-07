@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+h1{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    animation: change 2s infinite;
+}
+@keyframes change {
+    0%{
+        color: aqua;
+        font-size: 1rem;
+    }
+    20%{
+        color: azure;
+        font-size: 2rem;
+    }
+    40%{
+        color:pink;
+        font-size: 3rem;
+    }
+    60%{
+        color: greenyellow;
+        
+    }
+    80%{
+        color: lightcoral;
+    }
+    100%{
+        color: aqua;
+    }
+}
+p{
+    color: aliceblue;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    translate: -50%;
+}
+.span1{
+    background: url("https://cdn4.iconfinder.com/data/icons/set-1/32/__1-512.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    /* left: 50%;
+    top: 50%;
+    translate: -50% -50%; */
+    pointer-events: none;
+    animation: animate 3s linear;
+}
+.span2{
+    background: url("https://cdn3.iconfinder.com/data/icons/object-emoji/50/Celebration-512.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    /* left: 50%;
+    top: 50%;
+    translate: -50% -50%; */
+    pointer-events: none;
+    animation: animate 3s linear;
+}
+.span3{
+    background: url("https://cdn0.iconfinder.com/data/icons/merry-christmas-41/512/48-cheers-party-celebration-512.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    /* left: 50%;
+    top: 50%;
+    translate: -50% -50%; */
+    pointer-events: none;
+    animation: animate 3s linear;
+}
+.span4{
+    background: url("https://cdn4.iconfinder.com/data/icons/cute-greeting-card-elements-2/960/balloon_birthday_celebration_party_decoration-512.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    /* left: 50%;
+    top: 50%;
+    translate: -50% -50%; */
+    pointer-events: none;
+    animation: animate 3s linear;
+}
+.span5{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    /* left: 50%;
+    top: 50%;
+    translate: -50% -50%; */
+    pointer-events: none;
+    animation: animate 3s linear;
+}
+
+@keyframes animate {
+    0%{
+        translate: -50% -50%;
+        opacity: 1;
+    }
+    50%{
+        opacity: .5;
+    }
+    100%{
+        translate: -50% -1000%;
+        opacity: 0;
+    }
+}
